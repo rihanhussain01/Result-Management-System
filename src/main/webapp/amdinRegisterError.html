@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"> 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+   integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="./css/loginStyle.css" >
+
+</head>
+<body>
+
+<div class="container">
+<div class="mycard">
+<div class="row">
+<div class="col-md-6">
+<div class="myLeftCtn">
+<form action="AdminRegister" method="post" class="myForm text-center">
+<header>ADMIN REGISTERATION FORM</header>
+
+<div class="from-group">
+<i class="fas fa-user-shield"></i>
+<input type="text" placeholder="admin id" id="adminId" required="required" name="adminId" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+<div class="from-group">
+<i class="fas fa-user"></i>
+<input type="text" placeholder="Username" id="username" required="required" name="username" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="from-group">
+<i class="fas fa-phone-slash"></i>
+<input type="text" placeholder="Mobile" id="mobile" required="required" name="mobile" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="from-group">
+<i class="fas fa-envelope"></i>
+<input type="email" placeholder="Email Address" id="email" required="required" name="email" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="from-group">
+<i class="fas fa-lock"></i>
+<input type="password" placeholder="Password" id="password" required="required" name="password" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="form-group">
+<i class="fas fa-shield-check"></i>
+<select class="myInput" name="selector">
+<option value="In what city were you born?">In what city were you born?</option>
+<option value="What is the name of your first school?">What is the name of your first school?</option>
+<option value="What is the name of your favorite pet?">What is the name of your favorite pet?</option>
+<option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+<option value="What high school did you attend?">What high school did you attend?</option>
+<option value="What was the make of your first car?">What was the make of your first car?</option>
+<option value="What was your favorite food as a child?">What was your favorite food as a child?</option>
+<option value="Where did you meet your spouse?">Where did you meet your spouse?</option>
+</select>
+</div>
+
+<div class="from-group">
+<i class="fas fa-voicemail"></i>
+<input type="text" placeholder="Answer" id="answer" required="required" name="answer" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="from-group">
+
+<label><input type="checkbox" id="check_1" name="check_1" required="required" >
+<small class="checkbox_term text-muted"> I Read And Agree To Terms And Condition</small> 
+</input>
+<div class="invalid-feedback">you must check the checkbox</div>
+</label>
+</div>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<input type="submit" class="butt" value="CREATE ACCOUNT" >
+<p class="no_account text-muted">you have an already account?</p>
+<p><a href="#" class="btn text-decoration-none butt_1">LOGIN</a></p>
+</form>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="myRightCtn">
+<div class="box"><header>Result Management System (RMS)</header></div>
+<p class-"dummy-text">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+ theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 
+ "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+ <input type="button" class="butt_out" value="LEARN MORE" >
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

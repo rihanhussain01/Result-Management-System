@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"> 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+   integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<style>
+
+.myLeftCtn {
+
+background-color : #00e699;
+}
+
+.butt {
+margin-left : 90px;
+
+}
+
+.butt_1 {
+
+margin-left : 170px;
+margin-bottom : 40px;
+
+}
+
+.head{
+
+color :  #0066ff;
+margin-top : 20px;
+padding-top : 20px;
+margin-bottom : 30px;
+font-size : 30px;
+}
+
+.fas {
+
+padding-right : 20px;
+
+}
+
+.myInput {
+
+margin-left : 10px;
+margin-top : 20px;
+bonder : none;
+}
+
+.fas1 {
+margin-left : 110px;
+
+}
+
+#check_1 {
+
+margin-top : 10px;
+margin-bottom : 10px;
+}
+
+
+.no_account {
+
+margin-bottom : 10px;
+margin-top : 10px;
+}
+</style>
+
+</head>
+<body style="background: #f2f2f2;">
+
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="myLeftCtn mt-5">
+<form action="AdminRegister" method="post" class="myForm text-center">
+<header class="head">ADMIN REGISTERATION</header>
+
+<div class="from-group">
+<i class="fas fa-user-shield" style="color : #0066ff"></i>
+<input type="text" placeholder="admin id" id="adminId" required="required" name="adminId" class="myInput no-outline" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+<div class="from-group">
+<i class="fas fa-user" style="color : #0066ff"></i>
+<input type="text" placeholder="Username" id="username" required="required" name="username" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="from-group">
+<i class="fas fa-phone-slash" style="color : #0066ff"></i>
+<input type="text" placeholder="Mobile" id="mobile" required="required" name="mobile" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="from-group">
+<i class="fas fa-envelope" style="color : #0066ff"></i>
+<input type="email" placeholder="Email Address" id="email" required="required" name="email" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="from-group">
+<i class="fas fa-lock" style="color : #0066ff"></i>
+<input type="password" placeholder="Password" id="password" required="required" name="password" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="form-group">
+<i class="fas fa-shield-check fas1" style="color : #0066ff"></i>
+<select class="myInput myinput2" name="selector">
+<option value="In what city were you born?">In what city were you born?</option>
+<option value="What is the name of your first school?">What is the name of your first school?</option>
+<option value="What is the name of your favorite pet?">What is the name of your favorite pet?</option>
+<option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+<option value="What high school did you attend?">What high school did you attend?</option>
+<option value="What was the make of your first car?">What was the make of your first car?</option>
+<option value="What was your favorite food as a child?">What was your favorite food as a child?</option>
+<option value="Where did you meet your spouse?">Where did you meet your spouse?</option>
+</select>
+</div>
+
+<div class="from-group">
+<i class="fas fa-voicemail" style="color : #0066ff"></i>
+<input type="text" placeholder="Answer" id="answer" required="required" name="answer" class="myInput" >
+<div class="invalid-feedback">*please fill out this field</div>
+</div>
+
+<div class="from-group">
+
+<label><input type="checkbox" id="check_1" name="check_1" required="required" >
+<small class="checkbox_term text-muted" style="color : #0066ff"> I Read And Agree To Terms And Condition</small> 
+</input>
+<div class="invalid-feedback">you must check the checkbox</div>
+</label>
+</div>
+<input type="submit" class="butt btn btn-primary"  style="background-image: linear-gradient(45deg, #80b3ff , #0066ff)" value="CREATE ACCOUNT" >
+<p class="no_account text-muted">you have an already <b>account?</br>
+<a href="admin.html" class="btn text-decoration-none btn-denger butt_1"  style="background-image: linear-gradient(45deg, #80b3ff , #0066ff)">LOGIN</a></p>
+</form>
+</div>
+</div>
+
+<!--  <div class="col-md-6">
+<div class="myRightCtn" style="background-image: linear-gradient(45deg, #80b3ff , #0066ff)">
+<div class="box"><header>Result Management System (RMS)</header></div>
+<p class-"dummy-text">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+ theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 
+ "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+ <input type="button" class="butt_out" value="LEARN MORE" >  */
+</div>
+</div> -->
+</div>
+</div>
+</div>
+
+</body>
+</html>

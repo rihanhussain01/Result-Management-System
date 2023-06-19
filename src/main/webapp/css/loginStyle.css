@@ -1,0 +1,192 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+
+
+  /*  max-width: 100%wh;
+	height: 100vh;
+	margin: auto; */
+
+.container{
+	position: relative;
+	transform :translate(-50% , -50%);
+}
+
+/* .myRightCtn {
+	position: relative;
+	background-image: linear-gradient(45deg, #80b3ff , #0066ff);
+	border-radius: 25px;
+	height: 100%;
+	padding-top : 10px;
+	padding-bottom : 25px;
+	padding-left : 25px;
+	padding-right : 25px;
+	color: rgb(192 , 192 , 192);
+	font-size : 15px;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+} */
+
+ .myLeftCtn {
+	position: relative;
+	background: #fff;
+	border-radius: 25px;
+	height: 100vh;
+	padding: 25px;
+	mrgin-right : 30px;
+} 
+
+.myLeftCtn .head {
+	color : #ffcc00;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.row{
+	height : 100%;
+	margin-bottom: 40px;
+	margin-top : 40px;
+}
+
+
+
+/*.myRightCtn  header{
+	color: #fff ;
+	font-size: 44px;
+}  */
+
+.box {
+	position: relative;;
+	margin: 20px;
+	margin-bottom: 100px;
+}
+
+.securityQuestion  {
+	
+	width : 230px;
+	border-radius: 25px;
+	padding : 10px;
+	padding-left: 50px;
+	margin-top: 25px;
+	border: none;
+	-webkit-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	
+}
+
+.myLeftCtn .myInput {
+	width :  230px ;
+	border-radius: 25px;
+	padding: 10px;
+	padding-left: 50px;
+    margin-top : 25px;
+	border: none;
+	-webkit-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	
+}
+.myLeftCtn #check_1 {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	color : #ffcc00;
+}
+
+.myLeftCtn .checkbox_term{
+	font-size: 12px;
+	
+}
+
+.myLeftCtn .myInput:focus {
+	outline: none;
+}
+
+.myForm {
+	position: relative;
+	margin-top: 50px;
+}
+
+.myLeftCtn .butt {
+	background-color : #0066ff;
+	color: #fff;
+	width : 230px;
+	border: none;
+	border-radius: 25px;
+	padding : 10px;
+	-webkit-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.myLeftCtn .butt_1 {
+	background: linear-gradient(45deg , #ffcc00 , #997a00);
+	color : #fff;
+	width : 230px;
+	border : none;
+	border-radius: 25px;
+	padding : 10px;
+	-webkit-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.myLeftCtn .no_account 
+{
+	font-size: 12px;
+	margin-top: 15px;
+}
+.myLeftCtn .butt_1:hover {
+	background: linear-gradient(45deg , #ffcc00 , #997a00);
+	color : black;
+	font-weight : 600;
+}
+
+.myLeftCtn .butt_1:focus 
+{
+	outline: none;
+}
+.myLeftCtn .butt:hover {
+	background: linear-gradient(45deg , #ffcc00 , #997a00);
+	color : black;
+	font-weight : 600;
+}
+
+.myLeftCtn .butt:focus {
+	outline: none;
+}
+
+.myLeftCtn .fas{
+position: relative;
+color: #267326;
+left : 36px;	
+}
+
+.butt_out {
+	background: transparent;
+	color: #fff;
+	
+	width : 120px;
+	border : 2px solid #fff;
+	border-radius: 25px;
+	padding: 10px;
+	-webkit-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow : 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.butt_out:hover {
+	border : 2px solid #eecbff;
+}
+
+.butt_out:focus {
+	outline: none;
+}
+
